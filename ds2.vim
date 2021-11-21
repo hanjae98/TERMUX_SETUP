@@ -1,3 +1,4 @@
+" /usr/share/vim/vim81/colors/ds2.vim
 " Vim color file
 " Maintainer:	Hans Fugal <hans@fugal.net>
 " Last Change:	$Date: 2004/06/13 19:30:30 $

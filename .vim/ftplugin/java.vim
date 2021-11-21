@@ -1,5 +1,5 @@
+" ~/.vim/ftplugin/java.vim
 syntax on
-colo ds2
 set number
 set ts=4
 set sw=4
@@ -24,3 +24,4 @@ endfunction
 
 " init# => ESC => Function RETURN!
 iabbrev <expr> init# InsertCopyright()
+nnoremap <C-c> :!javac % && java %:r <CR>

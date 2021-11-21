@@ -1,3 +1,4 @@
+" ~/.vim/ftplugin/python.vim
 syntax on
 set tabstop=4              
 set expandtab
@@ -7,7 +8,6 @@ set smartindent
 set formatoptions+=r
 set nu                
 set bg=dark
-colo ds2
 
 " function
 function! InsertCopyright()
@@ -25,3 +25,4 @@ endfunction
 
 " init# => ESC => Function RETURN!
 iabbrev <expr> init# InsertCopyright()
+nnoremap <C-c> :w && :!python3 %<CR>
